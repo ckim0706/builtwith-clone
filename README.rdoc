@@ -1,28 +1,11 @@
-== README
+== BuiltWith.com Clone 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Model URL
+attributes: link, bootstrap, robots
 
-Things you may want to cover:
+* POST
+curl -v localhost:3000/urls -X POST \
+-H "Accept: application/json" \
+-H "Content-Type: application/json" \
+-d '{"url": {"link": "http://ck-album.xyz"}}'
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
